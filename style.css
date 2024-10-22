@@ -235,8 +235,11 @@ footer a {
 {
     #whitenavbar form{ 
         margin-right: 0px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
            }
+    .brandmdq img{
+        width: 220px !important;
+    }
     .carouselmdq img{
         height: auto;
     }
@@ -244,6 +247,23 @@ footer a {
         display: flex;
         justify-content: center;
     }
+   
+    .cardcarousel .card{
+        
+        display: none;
+        
+    }
+    .cardcarousel .card1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardcarousel .card1 img{
+        width: 350px !important;
+        height: 290px !important;
+    }
+   
+    
     .banner1mdq{
         height: auto;
     }
@@ -252,4 +272,30 @@ footer a {
         justify-content: center;
        
     }
+    .banner2mdq{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column ;
+    }
+    
+    .banner2mdq .banner2mdq1 {
+        width: 100% !important;
+    }
+    .banner3mdq{
+        height: auto !important;
+        
+    }
+    .cards5last{
+        margin-left: 10% !important;
+    }
+    .card5last{
+        display: none;
+    }
+   .copyright{
+    flex-direction: column ;
+    gap: 10px;
+   }
+   .copyright1{
+    align-self: center;
+   }
 }
