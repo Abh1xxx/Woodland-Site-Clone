@@ -1,0 +1,255 @@
+#greennavbar .navbar-nav .nav-link{
+    color: white ;
+}
+
+#greennavbar{
+    padding-right: 80px;
+}
+
+#whitenavbar{
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.whitenavbarlink {
+    color: #0c5423 !important; 
+    font-weight: 600 !important;
+  }
+.nav-hover li:hover{
+    text-decoration: underline;
+    background-color: #ecf3ee;
+}
+.mendrop a{
+    text-decoration: none;
+    color: #0c5423;
+}
+.mendrop li{
+    list-style-type: none;
+    font-size: 13px;
+}
+.mdrop{
+    display: none;
+    position: absolute;
+    z-index: 999;
+
+}
+.mendrop:hover .mdrop{
+    display: block;
+    background-color: white;
+}
+
+.mdrop li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.womendrop a{
+    text-decoration: none;
+    color: #0c5423;
+}
+.womendrop li{
+    list-style-type: none;
+    font-size: 13px;
+}
+.wdrop{
+    display: none;
+    position: absolute;
+    z-index: 999;
+
+}
+.womendrop:hover .wdrop{
+    display: block;
+    background-color: white;
+}
+
+.wdrop li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.brand{
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.branddrop:hover .brand{
+    display: block;
+    background-color: aliceblue;
+}
+
+.carousel-inner img{
+    width: 2050px;
+    height: 575px;
+  }
+.sixcards .card{
+    width: 425px;
+    height: 510px;
+    border-radius: 0%;
+    border-style: none;
+}
+.cardsinsix .card-body{
+    display: flex ;
+    flex-direction: column ; 
+    justify-content: flex-end;
+    
+}
+
+.banner1{
+    background-image: url(img/wdl_shoe_banner.webp);
+    background-size: cover;
+    height: 450px !important;
+}
+.banner1 .card-body a{
+    background-color: #0c5423;
+    color: white;
+    padding: 8px 16px  8px 16px ;
+    border-style: none;
+    border-radius: 0%;
+}
+
+
+
+
+.carousel2 img{
+    width: 250px !important;
+    height: 250px !important;
+    
+}
+.carousel2 {
+    /* display: flex; */
+}
+ 
+
+#seconcarousel img{
+    width: 250px !important;
+    height: 250px !important;
+}
+
+
+.banner2{
+    background-image: url(img/banner2/m_apparel_banner.webp);
+    background-size: cover;
+    width: 712px;
+    height: 500px;
+}
+
+.banner2-2 {
+    background-image: url(img/banner2/f_apparel_banner.webp);
+}
+
+.fourcards{
+    width: 332px;
+}
+.fourcards img{
+    width: 332px;
+    height: 400px;
+    border-radius: 0%;
+    border-style: none;
+}
+.fourcards .card-body{
+    /* width: 400px;
+    height: 40px; */
+    
+}
+
+main footer{
+    font-family: var(--font-sans),ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.cardsbutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerbutton a{
+    background-color: #0c5423;
+    color: white;
+    padding: 8px 16px  8px 16px ;
+    border-style: none;
+    border-radius: 0%;
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+}
+
+.cards3{
+    border-style: none;
+    border-radius: 0%;
+}
+
+.cardslast{
+    background-image: url(img/cards/pro_planet_banner.webp);
+    background-size: cover;
+    width: 712px;
+    height: 150px;
+}
+
+.truncate-text {
+    text-align: justify;
+    width: 400px;
+    height: 43px;
+    font-size: 15px; 
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+footer{
+    background-color: #0c5423;
+    color: white;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none; /* Remove underline */
+    font-size: 15px;
+}
+
+.socialmediaicones img
+{
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}
+
+.link-list{
+    list-style-type: none;
+    color: aliceblue;
+}
+
+.link-list a{
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.footer-link a:hover{
+    text-decoration: underline;
+    background-color: #04862d;
+}
+#whitenavbar form{
+    margin-right: 100px;
+}
+
+@media (max-width:990px)
+{
+    #whitenavbar form{ 
+        margin-right: 0px;
+        margin-bottom: 10px;
+           }
+    .carouselmdq img{
+        height: auto;
+    }
+    .sixcardmdq {
+        display: flex;
+        justify-content: center;
+    }
+    .banner1mdq{
+        height: auto;
+    }
+    .fourcardsmdq{
+        display: flex;
+        justify-content: center;
+       
+    }
+}
